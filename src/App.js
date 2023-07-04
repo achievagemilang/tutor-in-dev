@@ -8,17 +8,21 @@ import Product from "./modules/Product";
 import Products from "./modules/Products";
 import CategoryProducts from "./modules/CategoryProducts";
 import Cart from "./modules/Cart";
+import SignUp from "./modules/SignUp";
+import Login from "./modules/Login";
 
 function App() {
   return (
     <div>
-      <Header activeSelect="Home" />
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/products/:id" element={<Product />} />
         <Route path="/products" element={<Products />} />
         <Route path="/categories/:name" element={<CategoryProducts />} />
         <Route path="cart" element={<Cart />} />
+        <Route path="/signup" element={<SignUp />} />
+        <Route path="/login" element={<Login />} />
         <Route path="*" element={<div>404</div>} />
       </Routes>
       <Footer />

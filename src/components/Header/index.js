@@ -42,14 +42,14 @@ const Header = () => {
         </nav>
         <div class="flex space-x-4">
           <Link
-            to={"/cart"}
-            className="inline-flex items-center text-white bg-indigo-500 border-0 py-2 px-4 focus:outline-none hover:bg-indigo-700 rounded text-base mt-4 md:mt-0"
+            to={"/login"}
+            className="bg-pink-main inline-flex items-center text-white bg-indigo-500 border-0 py-2 px-4 focus:outline-none hover:bg-indigo-700 rounded text-base mt-4 md:mt-0"
           >
             Login
           </Link>
           <Link
-            to={"/cart"}
-            className=" inline-flex items-center text-white bg-indigo-500 border-0 py-2 px-4 focus:outline-none hover:bg-indigo-700 rounded text-base mt-4 md:mt-0"
+            to={"/signup"}
+            className=" bg-pink-main inline-flex items-center text-white bg-indigo-500 border-0 py-2 px-4 focus:outline-none hover:bg-indigo-700 rounded text-base mt-4 md:mt-0"
           >
             Sign Up
           </Link>
