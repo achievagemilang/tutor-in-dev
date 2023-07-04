@@ -12,7 +12,7 @@ import Cart from "./modules/Cart";
 function App() {
   return (
     <div>
-      <Header />
+      <Header activeSelect="Home" />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/products/:id" element={<Product />} />
